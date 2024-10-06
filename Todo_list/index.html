@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <div class="header">
+            <h1>Todo List</h1> 
+            <p>Get things done, one item at a time.</p>
+
+        </div>
+       <div class="list">
+            <ul>
+                <li>
+                    <div class ="has-to-do">
+                        <p>Learn VueJS</p>
+                        <div class ="checkbox-trash">
+                            
+                            <input type="checkbox">
+                            <img src= "delete.png"/>
+
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class ="has-to-do">
+                        <p>Code a todo list</p>
+                        <div class ="checkbox-trash">
+                            
+                            <input type="checkbox" >
+                            <img src= "delete.png"/>
+
+
+                        </div>
+
+                    </div>
+                </li>
+                <li>
+                    <div class ="has-to-do">
+                        <p>Learn something else</p>
+                        <div class ="checkbox-trash">
+                            
+                            <input type="checkbox">
+                            <img src= "delete.png"/>
+                           
+
+
+                        </div>
+
+                    </div>
+                </li>
+            </ul>
+       </div>
+       <div class="todo-container">
+            <label for="todo-input">Add to the todo list</label>
+            <input type="text" id="todo-input" placeholder="Enter task">
+            <button class="add-item">ADD ITEM</button>
+      </div>
+      
+    </div>
+</body>
+</html>

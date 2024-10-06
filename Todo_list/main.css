@@ -1,0 +1,104 @@
+body{
+
+    font-family: 'Montserrat', sans-serif;
+   
+    line-height: 10px;
+}
+
+h1{
+   font-weight: normal;
+}
+
+.header{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    color:aliceblue;
+    width: 320px;
+    border-bottom: 1px solid #fe7e7e ;
+}
+/*  */
+img{
+    width: 20px;
+    height:18px;
+    color: white;
+ 
+}
+
+body > div{
+    
+    background-color: #ff6666;
+    width: 400px;
+    height: 400px;
+}
+
+.list{
+    margin-top: 50px;
+
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.has-to-do{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top:5px;
+    align-items: center;
+    background-color:#ff7677 ;
+}
+
+.has-to-do p{
+    color: white;
+    margin-left: 30px;
+}
+
+
+.checkbox-trash{
+    position: relative;
+    left: -45px;
+}
+
+
+
+.todo-container {
+    
+    padding: 20px;
+    display: inline-block;
+   
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  #todo-input {
+    padding: 10px;
+    width: 200px;
+    border: none;
+   
+    margin-right: 10px;
+  }
+  
+  .add-item {
+    border: 0.1px solid white;
+    font-size: 11px;
+    background-color: #f25f5c;
+    color: white;
+
+    padding: 10px 20px;
+    
+    cursor: pointer;
+  }
+  
+  .add-item:hover {
+    background-color: #ffecec; /* Slightly lighter background on hover */
+  }
+  
